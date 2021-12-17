@@ -4,10 +4,10 @@
 
 
 
-- CRUD dengan menggunakan NodeJS & MongoDB
-- Login
+- CRUD Secret dengan menggunakan NodeJS & MongoDB 👦
+- Login & Registrasi 🔑
 - Autentikasi
-- Session & Cookies
+- Session & Cookies 🍪
 
 
 ## Penggunaan:
@@ -29,12 +29,12 @@
 
 #### Dikarenakan ada Update, mungkin program tidak berjalan di versi node yang sebelum (v17.x).
 
-> Jika anda menggunakan NodeJS versi dibawah (v17.x) maka untuk connect ke MongoDB anda perlu mengubah `127.0.0.1` menjadi `localhost`.   
+> Jika anda menggunakan NodeJS versi (v17.x) Kebawah. maka tidak ada yang perlu diubah, cukup seperti kode berikut:
 ```sh
 ~ mongoose.connect('mongodb://localhost:27017/postDB', {useNewUrlParser: true})
 ```
 
-> Jika anda menggunakan NodeJS versi (v17.x) Keatas. maka tidak ada yang perlu diubah, cukup seperti kode berikut:
+> Jika anda menggunakan NodeJS versi (v17.x) Keatas. maka untuk connect ke MongoDB anda perlu mengubah `localhost`menjadi `127.0.0.1`.
 ```sh
 ~ mongoose.connect('mongodb://127.0.0.1:27017/postDB', {useNewUrlParser: true})
 ```
